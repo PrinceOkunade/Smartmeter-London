@@ -1,0 +1,33 @@
+# ── Raw data (large; download from Kaggle — see README) ────────────────
+data/
+*.csv
+*.parquet
+*.zip
+
+# ── Office temp / backup files ─────────────────────────────────────────
+~$*
+*.BACKUP*.docx
+*.tmp
+
+# ── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# ── Notebooks scratch ──────────────────────────────────────────────────
+*-checkpoint.ipynb
+
+# ── OS ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Secrets (never commit tokens / keys) ───────────────────────────────
+*.env
+.env
+secrets.*
+*token*
